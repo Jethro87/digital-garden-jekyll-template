@@ -21,3 +21,9 @@ Preview the template here: https://digital-garden-jekyll-template.netlify.app/
 ## License
 
 Source code is available under the [MIT license](LICENSE.md).
+
+## To run locally
+
+bundle
+
+bundle exec jekyll serve

@@ -1,0 +1,17 @@
+---
+layout: page
+title: Notes
+---
+<content>
+    {{ content }}
+</content>
+
+<div>
+  {% for note in site.notes %}
+ 
+      <p><a href="{{ note.url }}"><b>{{ note.title }}</b></a></p>
+      <p>{{ note.excerpt }}</p>
+      <br>
+   
+  {% endfor %}
+</div>
