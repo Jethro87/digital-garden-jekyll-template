@@ -12,6 +12,8 @@ In `ios/Runner/AppDelegate.m`, add the following code:
     UIViewController *blankViewController = [UIViewController new];
     blankViewController.view.backgroundColor = [UIColor whiteColor];
 
+    blankViewController.modalPresentationStyle = UIModalPresentationFullScreen;
+
     [self.window.rootViewController presentViewController:blankViewController animated:NO completion:NULL];
 }
 
