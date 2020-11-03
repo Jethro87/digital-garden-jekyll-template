@@ -27,3 +27,7 @@ Source code is available under the [MIT license](LICENSE.md).
 bundle
 
 bundle exec jekyll serve
+
+## To update from upstream master branch
+
+https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/syncing-a-fork
